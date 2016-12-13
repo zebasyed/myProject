@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include header.ejs%>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://code.angularjs.org/1.4.5/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.4.5/angular-route.min.js"></script>
+        <script src="/js/spa.js"></script>
+    </head>
+    <style>
+      .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    </style>
+   <body ng-app="navigation">
+        <div ng-controller="homeCtrl">
+            <div class="collapse navbar-collapse " id="myNavbar" style="padding-bottom:30px;">
+              <ul class="nav navbar-nav">
+                <li><a href="#/rt-contact">About</a></li>
+                <li ><a href="#/rt-home">Home</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>
+          </div>
+        </div>
+        <div ng-view></div>
+   </body>
+</html>

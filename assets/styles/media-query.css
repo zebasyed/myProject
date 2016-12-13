@@ -1,0 +1,16 @@
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+    .row.content {height:auto;} 
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+

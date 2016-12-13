@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/styles/css/login.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/css/media-query.css" />
+    </head>
+    <body>
+        <section style="padding-top:30px;padding-left:440px;">
+            <form style="width:50%" method="post" action="signup/submitSignup">
+                <h2 class="h2">Signup Form</h2>
+                <div class="container">
+                    <label style="color:white;font-size:20px;">User Name</label>
+                    <input type="text" placeholder="Enter User Name"  name="name" required/>
+                    <label style="color:white;font-size:20px;">Password</label>
+                    <input type="password" placeholder="Enter Password"  name="pass" required/>
+                    <label style="color:white;font-size:20px;">Email</label>
+                    <input type="email" placeholder="Enter Email"  name="email" required/>
+                    <label style="color:white;font-size:20px;">Contact Number</label>
+                    <input type="text" placeholder="Enter Contact Number" name="phoneNumber" maxlength="19" required/>
+                    <button type="submit">Signup</button>
+                </div> 
+            </form>
+        </section>
+    <script src="/js/signup_util_controller.js"></script>
+    </body>
+</html>

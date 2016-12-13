@@ -1,0 +1,68 @@
+html{
+    background: url(../images/html1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: inherit;
+    color: white;
+    background-color: #333;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+input[type=text], input[type=password],input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    margin: 24px 0 12px 0;
+    width:40%;
+    height:auto;
+    padding-left:125px;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
